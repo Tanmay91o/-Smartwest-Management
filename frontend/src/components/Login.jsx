@@ -4,7 +4,7 @@ import { Eye, EyeOff, Lock, Mail, User } from 'lucide-react'
 import { useNavigate, Link } from 'react-router-dom'
 import axios from 'axios'
 
-const Login = ({ onLogin, API_URL = "http://localhost:4000" }) => {
+const Login = ({ onLogin, API_URL = "https://smartwest-management.onrender.com" }) => {
 
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
