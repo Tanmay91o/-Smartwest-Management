@@ -6,7 +6,7 @@ import Login from './components/Login'
 import signup from './components/Signup'
 import Signup from './components/Signup'
 
-const API_URL = "http://localhost:4000"
+const API_URL = "https://smartwest-management.onrender.com"
 
 // to get transaction from local storage
 const getTransectionsFromStorage = () => {
