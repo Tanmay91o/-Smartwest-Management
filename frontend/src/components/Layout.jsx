@@ -8,7 +8,7 @@ import { ArrowUp, Car, CarTaxiFront, Clock, CreditCard, DollarSign, Gift, Home, 
 import { styleEffect } from 'framer-motion'
 import { Link, Outlet } from 'react-router-dom'
 
-const API_BASE = 'http://localhost:4000/api'
+const API_BASE = 'https://smartwest-management.onrender.com/api'
 
 const CATEGORY_ICONS = {
     Food: <Utensils className="w-4 h-4" />,
