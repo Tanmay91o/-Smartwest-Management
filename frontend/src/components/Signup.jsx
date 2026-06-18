@@ -4,7 +4,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import { ArrowLeft, Eye, EyeOff, Lock, Mail, User } from 'lucide-react';
 
-const Signup = ({ onLogin, API_URL = "http://localhost:4000" }) => {
+const Signup = ({ onLogin, API_URL = "https://smartwest-management.onrender.com" }) => {
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
